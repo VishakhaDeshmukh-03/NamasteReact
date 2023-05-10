@@ -1,0 +1,73 @@
+Q.1 What is Emmet?
+Ans:->
+ Emmet is a set of plug-ins for text editor that allow high speed coding. Emmet uses different abbreviations,
+ and short expressions depending on what is passed and then dynamically converts the abbreviations into full 
+ code. Emmet is mostly use for HTML, XML and CSS but it can also be use with the programming languages.
+ For example, to generate a html sceleton we just need to use 2 keys, i.e. (shift + 1) or type (!) it will
+ show a pop up with the content that will be generated and press enter, emmet will create a complete html
+ structure. There are lots of short cuts where emmet will create a code structures as we want.
+
+ Q.2 Difference between library and framework?
+ Ans:->
+    In software developement, library and framework play a important key role.
+    Frameworks:
+    A framework is a special kind of library that does not contain “finished” functions like a regular 
+    library. Frameworks are rather programme scaffolds that provide the blueprint but not the finished unit.
+    The framework, therefore, provides the blueprint and the basic framework and also shows what is still
+    needed from the programmer in terms of customisation. The framework provides the flow of a software 
+    application and tells the developer what it needs and calls the code provided by the developer as 
+    required. If a library is used, the application calls the code from the library.
+    Library:
+    A library is a collection of prewritten code that can be used to simplify tasks. 
+    The term library simply refers to a collection of code that is reused repeatedly. 
+    It is essentially a set of pre-defined functions and classes that programmers can use 
+    to simplify their work and speed up the development process. So, developers do not have 
+    to write code to accomplish specific functionality because the library already includes code 
+    for those functionalities. Standard libraries are available with most programming languages,
+    but programmers can also make their own custom libraries.
+ 
+ Q.3 What is CDN? why do we use it?
+ Ans:-> 
+    CDN stands for content delivery network. A Content Delivery Network or a CDN is a globally-distributed 
+    network of servers that helps provide high-availability, faster performance, and security to websites 
+    distributing their content via it.
+    Today, almost all websites and applications rely on a CDN to help serve content to their users. 
+    Web applications use CDNs largely because they offer four important benefits
+    better performance, increased reliability, cost savings, and resilience against cyber attacks.
+
+Q.4 Why is React known as React?
+Ans:->
+   React is known as React because of it's ability to react to changes in data. When the data in react
+   component changes, React will automatically re-render the component so that it reflects the new data.
+   This makes it easy to create it's performance user interfaces that always look up-to-date.
+   Also React uses virtual DOM it is the biggest benefits for the application, because virtual DOM is 
+   use increase the performance of application. Virtual DOM keeps into memory and sync with the real DOM.
+
+Q.5 What is crossorigin in script tag?
+Ans:->
+   crossorigin attribute is a CORS settings attribute, it controls for script that are obtained from other
+   origins. crossorigin attribute sets the mode of the request to an HTTP cors request. web page make a 
+   request to load a resources on other servers, here is the CORS comes in a picture. crossorigin request is
+   a request for resources from other domain.
+
+Q.6 What is Difference between React and ReactDOM?
+Ans:->
+   React is a javascript library which is use to create or building the user interface (UI).
+   ReactDOM is a javascript library that allows react to interact with the DOM.
+
+Q.7 What is difference between react.development.js and react.production.js files via CDN?
+Ans:->
+   developement build is use for as name suggests for developement pursopse. you have source maps, debugging
+   and often times hot reloading ability in those builds.
+   production build on other hand, runs in production mode, which means this code running on your client's
+   machine.he production build runs uglify and builds your source files into one or multiple minimized files. 
+   It also extracts CSS and images and of course any other sources you're loading with Webpack.
+
+Q.8 What is async and defer?
+Ans:->
+   async and defer are the attribute of script tag.
+   The difference between async and defer is, Html paring will goes on and along with that scipt will 
+   fetch in asynch manner once the script is available script will executed and after only script html 
+   parsing will continue execution. In other words, async allow your script run as soon as it is loaded
+    without blocking any other element on the page. on the other hand in the case od defer, Html paring will goes on and along with that scipt will 
+   fetch in parallel once the html parsing complete execution then only script starts execution.
