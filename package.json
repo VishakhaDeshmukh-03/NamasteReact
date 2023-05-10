@@ -1,0 +1,19 @@
+{
+  "name": "namastereact",
+  "version": "1.0.0",
+  "description": "This is a  react live course",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VishakhaDeshmukh-03/NamasteReact.git"
+  },
+  "author": "Vishakha Deshmukh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VishakhaDeshmukh-03/NamasteReact/issues"
+  },
+  "homepage": "https://github.com/VishakhaDeshmukh-03/NamasteReact#readme"
+}
